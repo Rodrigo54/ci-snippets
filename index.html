@@ -1,1 +1,224 @@
-"My Page" 
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="A front-end template that helps you build fast, modern mobile web apps.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Codeigniter Snippets</title>
+
+    <link rel="shortcut icon" href="http://www.codeigniter.com/assets/images/ci-icon.png">
+
+    <link href='//fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="material.min.css">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="demo-layout mdl-layout mdl-layout--fixed-header mdl-js-layout mdl-color--grey-100">
+      <header class="demo-header mdl-layout__header mdl-layout__header--scroll">
+        <div class="mdl-layout__header-row">
+        <img src="http://www.codeigniter.com/assets/images/ci-logo-white.png">
+          <span class="mdl-layout-title">Codeigniter Snippets</span>
+          <div class="mdl-layout-spacer"></div>
+          <i class="material-icons">star</i>
+        </div>
+      </header>
+      <div class="demo-ribbon"></div>
+      <main class="demo-main mdl-layout__content">
+        <div class="demo-container mdl-grid">
+          <div class="mdl-cell mdl-cell--1-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
+          <div class="demo-content mdl-color--white mdl-shadow--8dp content mdl-color-text--grey-800 mdl-cell mdl-cell--10-col">
+<h2>Codeigniter Snippets</h2>
+
+<p><a href="http://codeigniter.com/"><img src="https://camo.githubusercontent.com/01b33ca240be1972afed6bc82659ebe859704ada/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f436f646569676e697465722d76332e302d6f72616e67652e737667" alt="Codeigniter" data-canonical-src="https://img.shields.io/badge/Codeigniter-v3.0-orange.svg" style="max-width:100%;"></a>
+<a href="https://packagecontrol.io/packages/CodeIgniter%20Snippets"><img src="https://camo.githubusercontent.com/420820bc08fe5108e40aa923bc01b545a294f3d8/68747470733a2f2f7061636b616765636f6e74726f6c2e6865726f6b756170702e636f6d2f646f776e6c6f6164732f436f646549676e69746572253230536e6970706574732e7376673f636f6c6f723d383064346364" alt="Downloads" data-canonical-src="https://packagecontrol.herokuapp.com/downloads/CodeIgniter%20Snippets.svg?color=80d4cd" style="max-width:100%;"></a></p>
+
+<p>This is a <a href="http://www.sublimetext.com/">Sublime Text</a> package which includes a bunch of handy snippets for doing Codeigniter framework development.</p>
+
+<h3><a id="user-content-easy-installation" class="anchor" href="#easy-installation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Easy installation</h3>
+
+<p>If you have the <a href="https://packagecontrol.io/">Package Control</a> package installed, you can install Codeigniter framework Snippets from inside Sublime Text itself. Open the Command Palette and select "Package Control: Install Package", then search for Codeigniter framework Snippets.</p>
+
+<h3><a id="user-content-manual-installation" class="anchor" href="#manual-installation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Manual installation</h3>
+
+<p>If you haven't got Package Control installed you will need to make a clone of this repository into your packages folder <strong>(Preferences &gt; Browse packages...)</strong>, like so:</p>
+
+<blockquote>
+<code>git clone https://github.com/mpmont/ci-snippets.git ci-snippets</code>
+</blockquote>
+
+<p>If you find error or whatever just fork it and send me a pull request.</p>
+
+<h3>List of avaiable shortcuts</h3>
+<div class="mdl-grid shortcuts">
+
+<div class="mdl-cell mdl-cell--2-col">
+<h4>Class</h4>
+<ul>
+<li>_cookie</li>
+<li>_get</li>
+<li>_get_post</li>
+<li>_post</li>
+<li>_server</li>
+<li>set_cookie</li>
+<li>get_request_header</li>
+<li>request_headers</li>
+<li>ip_address</li>
+<li>valid_ip</li>
+<li>user_agent</li>
+<li>is_ajax</li>
+<li>is_cli</li>
+<li>fetch_method</li>
+<li>fetch_class</li>
+<li>fetch_module</li>
+<li>output_json</li>
+<li>set_json</li>
+<li>th</li>
+</ul>
+</div>
+
+<div class="mdl-cell mdl-cell--2-col">
+<h4>Helper</h4>
+<ul>
+<li>anchor</li>
+<li>form_checkbox</li>
+<li>form_dropdown</li>
+<li>form_hidden</li>
+<li>form_input</li>
+<li>form_open</li>
+<li>form_password</li>
+<li>form_submit</li>
+<li>form_textarea</li>
+<li>form_upload</li>
+<li>form_validation</li>
+<li>form_label</li>
+<li>uri_segment</li>
+<li>_redirect</li>
+<li>redirect</li>
+<li>site</li>
+<li>ci_base</li>
+</ul>
+</div>
+
+<div class="mdl-cell mdl-cell--2-col">
+<h4>Library</h4>
+<ul>
+<li>calendar</li>
+<li>cart_add</li>
+<li>cart_update</li>
+<li>display_cart</li>
+<li>email</li>
+<li>flashdata</li>
+<li>set_flashdata</li>
+<li>generate_table</li>
+<li>pagination</li>
+<li>upload</li>
+</ul>
+</div>
+
+<div class="mdl-cell mdl-cell--2-col">
+<h4>Query Builder</h4>
+<ul>
+<li>db_affected</li>
+<li>db_delete</li>
+<li>db_free_result</li>
+<li>db_get</li>
+<li>db_group</li>
+<li>db_insert</li>
+<li>db_insert_id</li>
+<li>db_insertbatch</li>
+<li>db_select</li>
+<li>db_join</li>
+<li>db_last</li>
+<li>db_limit</li>
+<li>db_num_fields</li>
+<li>db_num_rows</li>
+<li>db_order</li>
+<li>db_result</li>
+<li>db_result_array</li>
+<li>db_row</li>
+<li>db_row_array</li>
+<li>db_select</li>
+<li>db_truncate</li>
+<li>db_update</li>
+<li>db_where</li>
+</ul>
+</div>
+
+<div class="mdl-cell mdl-cell--2-col">
+<h4>Session</h4>
+<ul>
+<li>session_userdata</li>
+<li>session_set_userdata</li>
+<li>session_all_userdata</li>
+<li>session_unset_userdata</li>
+<li>session_sess_destroy</li>
+</ul>
+</div>
+
+<div class="mdl-cell mdl-cell--2-col">
+<h4>Misc</h4>
+<ul>
+<li>ci_start</li>
+<li>construct</li>
+<li>controller</li>
+<li>model</li>
+<li>library</li>
+<li>crud</li>
+<li>load_helper</li>
+<li>load_library</li>
+<li>load_model</li>
+<li>load_module</li>
+<li>load_view</li>
+<li>log</li>
+<li>ciline</li>
+<li>eof</li>
+</ul>
+</div>
+</div> <!-- fim grid -->
+
+<h2>List of Contributors</h2>
+<ul>
+<li>Marco Monteiro</li>
+<li>Jesse Robertson</li>
+<li>Amitava Das Gupta</li>
+<li>rmclain</li>
+<li>Tutkun</li>
+<li>Frank Parent</li>
+<li>Nicolas Widart</li>
+<li>Ulises Vázquez Espinoza</li>
+<li>pauloamc</li>
+<li>shishir06</li>
+<li>Deden Fathurahman</li>
+<li>Shawn Crigger</li>
+<li>Qcol</li>
+<li>taiar</li>
+<li>MetalMatze</li>
+<li>Blux</li>
+<li>Luis Leite</li>
+<li>José Tomás Tocino</li>
+<li>Marcelo Diniz</li>
+<li>Ernesto Acevedo</li>
+<li>Rodrigo Alves Mesquita</li>
+</ul>
+
+<p><a href="https://bitdeli.com/free" title="Bitdeli Badge"><img src="https://camo.githubusercontent.com/4a62faa97b589a8d744b51bf796dc873c6dc7636/68747470733a2f2f64327765637a68766c38323376302e636c6f756466726f6e742e6e65742f6d706d6f6e742f63692d736e6970706574732f7472656e642e706e67" alt="Bitdeli Badge" data-canonical-src="https://d2weczhvl823v0.cloudfront.net/mpmont/ci-snippets/trend.png" style="max-width:100%;"></a></p>
+          </div>
+        </div>
+        <footer class="demo-footer mdl-mini-footer">
+          <div class="mdl-mini-footer--left-section">
+            <ul class="mdl-mini-footer--link-list">
+              <li><a href="#">Help</a></li>
+              <li><a href="#">Privacy and Terms</a></li>
+              <li><a href="#">User Agreement</a></li>
+            </ul>
+          </div>
+        </footer>
+      </main>
+    </div>
+    <a href="https://github.com/google/material-design-lite/blob/master/templates/article/" target="_blank" id="view-source" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-color--accent mdl-color-text--accent-contrast">View Source</a>
+    <script src="https://storage.googleapis.com/code.getmdl.io/1.0.6/material.min.js"></script>
+  </body>
+</html>
