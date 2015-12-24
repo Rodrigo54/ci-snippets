@@ -92,4 +92,11 @@
   margin-right: 40px;
   margin-bottom: 40px;
   z-index: 900;
+  background-color: #bf3e11;
+  color: #ffffff;
+}
+
+footer img{
+  height: 25px;
+  vertical-align: sub;
 }
